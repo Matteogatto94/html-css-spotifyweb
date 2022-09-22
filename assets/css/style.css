@@ -1,15 +1,23 @@
+/* #region general rules */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* #endregion general rules */
 
+/* #region common rules and debug */
 :root {
-    --darker: #000;
-    --dark: #333;
-    --dark-blue: rgb(0, 0, 63);
+    --darker: #000000;
+    --dark: #080B12;
+    --dark-blue: #141922;
     --nav-mobile: 50px;
     --nav-wide: 240px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .wrapper {
@@ -28,12 +36,11 @@
 
 }
 
-
-
 .sidebar {
     width: var(--nav-mobile);
     background-color: var(--darker);
     height: 100%;
+    position: relative;
 }
 
 .content {
@@ -49,7 +56,7 @@
 }
 
 .upgrade {
-    height: 60px;
+    height: 90px;
     background-color: var(--dark);
     text-align: end;
 }
@@ -90,6 +97,9 @@
     background-color: white;
 }
 
+/* #endregion common rules */
+
+/* #region responsive */
 @media screen and (min-width: 568px) {
     .sidebar {
         width: var(--nav-wide);
@@ -109,3 +119,85 @@
         ;
     }
 }
+
+/* #endregion responsive */
+
+/* #region sidebar */
+
+.logo {
+    padding-top: 1rem;
+    padding-right: 4rem;
+}
+
+.navigation_sidebar a,
+.list_playlist a {
+    text-decoration: none;
+    display: block;
+    color: #A3A3A3;
+}
+
+.navigation_sidebar {
+    padding: 1.5rem;
+    line-height: 3rem;
+}
+
+.playlist {
+    padding:1.5rem;
+    line-height: 3rem;
+}
+
+.playlist_title {
+    color:white;
+}
+
+.box_plus {
+    background-color: #A3A3A3;
+    padding: 0.5rem 0.7rem;
+    margin-right: 0.5rem;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #A3A3A3;
+}
+
+.profile {
+    padding-top: 1rem;
+}
+
+.profile_img {
+    background-color: #A3A3A3;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.playlist_down {
+    padding: 1.5rem;
+    line-height: 3rem;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 0;
+}
+
+.profile_name {
+    color: white;
+    padding-left: 1rem;
+}
+/* #endregion sidebar */
+
+/* #region upgrade */
+
+.upgrade {
+    padding-top: 2rem;
+}
+
+.btn_upgrade {
+    background-color: var(--dark);
+    color: white;
+    border: 1px solid white;
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+    margin-right: 1rem;
+}
+
+/* #endregion upgrade */
