@@ -76,7 +76,7 @@ body {
 
 .music {
     overflow-y: auto;
-    height: calc(100% - 60px);
+    height: calc(100% - 250px);
     padding: 1.5rem;
 }
 
@@ -97,6 +97,13 @@ body {
 .debug .audio {
     background-color: white;
 }
+
+a:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+
 
 /* #endregion common rules */
 
@@ -201,6 +208,11 @@ body {
     margin-right: 1rem;
 }
 
+.btn_upgrade:hover {
+    padding: 1.5rem 2.5rem;
+    cursor: pointer;
+}
+
 /* #endregion upgrade */
 
 /* #region navigation */
@@ -226,4 +238,28 @@ body {
     color: white;
 }
 
+.album img {
+    max-width: 100%;
+}
+
+.music_descript {
+    text-align: center;
+}
+
+.music_descript h3 {
+    color: white;
+    padding: 0.5rem;
+}
+
+.music_descript p {
+    color: #7D7F84;
+}
+
+.title_album p {
+    color: #7D7F84;
+}
+
+.album_2 {
+    line-height: 2.5rem;
+}
 /* #endregion music */
