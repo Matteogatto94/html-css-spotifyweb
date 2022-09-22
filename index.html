@@ -3,103 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--codice per viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Titolo Pagina Web-->
     <title>Spotify Web App</title>
+
+    <!--Link CSS-->
     <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--Link Font Google-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    
+    <!--Link Font-->
     <script src="https://kit.fontawesome.com/641e4c79bb.js" crossorigin="anonymous"></script>
 </head>
 <body class="debug">
 
     <div class="wrapper">
-        <div class="top">
-            <div class="sidebar">
-                <div class="logo">
-                    <img src="./assets/img/logo.svg" alt="Spotify Logo">
-                </div>
+    <div class="top">
 
-                <div class="navigation_sidebar">
-                    <a href="#"> <i class="fa-solid fa-house"></i> Home</a>
-                    <a href="#"> <i class="fa-solid fa-magnifying-glass"></i> Cerca</a>
-                    <a href="#"> <i class="fa-solid fa-lines-leaning"></i> La tua libreria</a>
-                </div>
+        <!--Inizio sezione Side bar -->
+    <div class="sidebar">
+    <div class="logo">
+        <img src="./assets/img/logo.svg" alt="Spotify Logo">
+    </div>
 
-                <div class="playlist">
-                    <div class="playlist_title">PLAYLIST</div>
-                    <span class="box_plus"><i class="fa-solid fa-plus"></i></span>
-                    <a href="#">Crea playlist</a>
+    <div class="navigation_sidebar">
+        <a href="#"> <i class="fa-solid fa-house"></i> Home</a>
+        <a href="#"> <i class="fa-solid fa-magnifying-glass"></i> Cerca</a>
+        <a href="#"> <i class="fa-solid fa-lines-leaning"></i> La tua libreria</a>
+    </div>
+        <!-- /fine navigation sidebar-->
 
-                    <div class="list_playlist">
-                        <a href="#">Nome Playlist</a>
-                        <a href="#">Nome Playlist</a>
-                        <a href="#">Nome Playlist</a>
-                        <a href="#">Nome Playlist</a>
-                        <a href="#">Nome Playlist</a>
-                        <a href="#">Nome Playlist</a>
-                        <a href="#">Nome Playlist</a>
-                    </div>
-                </div>
+        <!-- Inizio Playlist-->
 
-                <div class="playlist_down">
-                    <a href="#"><i class="fa-regular fa-circle-down"></i> Installa App</a>
-                    <hr>
-                <div class="profile">
-                    <img class="profile_img" src="./assets/img/profile.svg" alt="">
-                    <span class="profile_name">John Doe</span>
-                </div>
-                </div>
+    <div class="playlist">
+    <div class="playlist_title">PLAYLIST</div>
+        <span class="box_plus"><i class="fa-solid fa-plus"></i></span>
+        <a href="#">Crea playlist</a>
+
+    <div class="list_playlist">
+        <a href="#">Nome Playlist</a>
+        <a href="#">Nome Playlist</a>
+        <a href="#">Nome Playlist</a>
+        <a href="#">Nome Playlist</a>
+        <a href="#">Nome Playlist</a>
+        <a href="#">Nome Playlist</a>
+        <a href="#">Nome Playlist</a>
+    </div>
+    </div>
+        <!--/fine sezione playlist e lista-->
+
+        <!--Inizio sezione dati dell'utente all'ascolto-->
+
+    <div class="playlist_down">
+        <a href="#"><i class="fa-regular fa-circle-down"></i> Installa App</a>
+        <hr>
+    <div class="profile">
+        <img class="profile_img" src="./assets/img/profile.svg" alt="">
+        <span class="profile_name">John Doe</span>
+    </div>
+    </div>
+        <!--/fine sezione dati dell'utente e sidebar-->    
                 
                 
-                
-            </div>
-            <div class="content">
-                <div class="upgrade">
-                    <span class="btn_upgrade">EFFETTUA L'UPGRADE</span>
-                </div>
+    </div>
 
-                <div class="navigation">
-                    <a href="#">IN EVIDENZA</a>
-                    <a href="#">PODCAST</a>
-                    <a href="#">CLASSIFICHE</a>
-                    <a href="#">GENERI E MOOD</a>
-                    <a href="#">NUOVE USCITE</a>
-                    <a href="#">SCOPRI</a>
-                </div>
-                
-                <div class="music">
-                    <div class="container">
-                        <div class="title_album">
-                            <h2>Recently Played</h2>
-                        </div>
-                        
-                        <div class="row">
-                            <div class="album"></div>
-                            <div class="album"></div>
-                            <div class="album"></div>
-                            <div class="album"></div>
-                            <div class="album"></div>
-                            <div class="album"></div>
+    <div class="content">
 
-                        </div>
-                        <div class="row">
-                            <div class="album"></div>
-                            <div class="album"></div>
-                        </div>
-                        <div class="row">
-                            <div class="album"></div>
-                            <div class="album"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="player">
-            <div class="album_details"></div>
-            <div class="controls"></div>
-            <div class="audio"></div>
-        </div>
+        <!--Inizio sezione bottone upgrade-->  
+    <div class="upgrade">
+        <span class="btn_upgrade">EFFETTUA L'UPGRADE</span>
+    </div>
+        <!--/fine sezione bottone upgrade-->
+
+        <!--inizio sezione barra navigazione sopra titoli musicali-->
+    <div class="navigation">
+        <a href="#">IN EVIDENZA</a>
+        <a href="#">PODCAST</a>
+        <a href="#">CLASSIFICHE</a>
+        <a href="#">GENERI E MOOD</a>
+        <a href="#">NUOVE USCITE</a>
+        <a href="#">SCOPRI</a>
+    </div>
+        <!--/fine sezione barra navigazione sopra i titoli musicali-->
+
+    <div class="music">
+    <div class="container">
+        <!--Inizio titolo degli album-->
+    <div class="title_album">
+        <h2>Recently Played</h2>
+    </div>
+        <!--/fine titoli degli album-->
+        
+        <!--Inizio sezione album musicali-->
+    <div class="row">
+    <div class="album"></div>
+    <div class="album"></div>
+    <div class="album"></div>
+    <div class="album"></div>
+    <div class="album"></div>
+    <div class="album"></div>
+    </div>
+
+
+    <div class="row">
+    <div class="album"></div>
+    <div class="album"></div>
+    </div>
+
+    <div class="row">
+    <div class="album"></div>
+    <div class="album"></div>
+    </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+    <div class="player">
+    <div class="album_details"></div>
+    <div class="controls"></div>
+    <div class="audio"></div>
+    </div>
     </div>
 
 </body>
