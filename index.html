@@ -27,45 +27,88 @@
 
         <!--Inizio sezione Side bar -->
     <div class="sidebar">
-    <div class="logo">
-        <img src="./assets/img/logo.svg" alt="Spotify Logo">
-    </div>
-
+    <div class="sidebar_top">
+        <div class="sidebar_top_logo">
+            <img src="./assets/img/logo.svg" alt="Spotify Logo">
+        </div>
+        
     <div class="navigation_sidebar">
-        <a href="#"> <i class="fa-solid fa-house"></i> Home</a>
-        <a href="#"> <i class="fa-solid fa-magnifying-glass"></i> Cerca</a>
-        <a href="#"> <i class="fa-solid fa-lines-leaning"></i> La tua libreria</a>
+            <ul>
+                <li>
+                    <img src="./assets/img/home.svg" alt="">
+                    <span>Home</span>
+                </li>
+
+                <li>
+                    <img src="./assets/img/search.svg" alt="">
+                    <span>Cerca</span>
+                </li>
+
+                <li>
+                    <img src="./assets/img/libreria.svg" alt="">
+                    <span>La tua libreria</span>
+                </li>
+            </ul>
     </div>
-        <!-- /fine navigation sidebar-->
+        
+    <div class="playlist_menu">
+        <div class="playlist_title">PLAYLIST</div>
 
-        <!-- Inizio Playlist-->
+        <ul>
+            <li>
+                <span class="box_plus" style="color: black"><i class="fa-solid fa-plus"></i></span>
+                <span>Crea Playlist</span>
+            </li>
 
-    <div class="playlist">
-    <div class="playlist_title">PLAYLIST</div>
-        <span class="box_plus"><i class="fa-solid fa-plus"></i></span>
-        <a href="#">Crea playlist</a>
+            <li>
+                <span>Nome Playlist</span>
+            </li>
 
-    <div class="list_playlist">
-        <a href="#">Nome Playlist</a>
-        <a href="#">Nome Playlist</a>
-        <a href="#">Nome Playlist</a>
-        <a href="#">Nome Playlist</a>
-        <a href="#">Nome Playlist</a>
-        <a href="#">Nome Playlist</a>
-        <a href="#">Nome Playlist</a>
+            <li>
+                <span>Nome Playlist</span>
+            </li>
+
+            <li>
+                <span>Nome Playlist</span>
+            </li>
+
+            <li>
+                <span>Nome Playlist</span>
+            </li>
+
+            <li>
+                <span>Nome Playlist</span>
+            </li>
+
+            <li>
+                <span>Nome Playlist</span>
+            </li>
+
+            <li>
+                <span>Nome Playlist</span>
+            </li>
+        </ul>
     </div>
+
+
     </div>
-        <!--/fine sezione playlist e lista-->
-
-        <!--Inizio sezione dati dell'utente all'ascolto-->
-
-    <div class="playlist_down">
-        <a href="#"><i class="fa-regular fa-circle-down"></i> Installa App</a>
+  
+    <div class="sidebar_down">
+        <ul>
+            <li>
+                <img src="./assets/img/download.svg" alt="">
+                <span>Installa App</span>
+            </li>
+        </ul>
         <hr>
-    <div class="profile">
-        <img class="profile_img" src="./assets/img/profile.svg" alt="">
-        <span class="profile_name">John Doe</span>
-    </div>
+
+        <ul class="profile">
+            <li>
+                <img src="./assets/img/profile.svg" alt="">
+                <span style="color: white">John Doe</span>
+            </li>
+        </ul>
+
     </div>
         <!--/fine sezione dati dell'utente e sidebar-->    
                 
@@ -81,14 +124,14 @@
         <!--/fine sezione bottone upgrade-->
 
         <!--inizio sezione barra navigazione sopra titoli musicali-->
-    <div class="navigation">
-        <a href="#">IN EVIDENZA</a>
-        <a href="#">PODCAST</a>
-        <a href="#">CLASSIFICHE</a>
-        <a href="#">GENERI E MOOD</a>
-        <a href="#">NUOVE USCITE</a>
-        <a href="#">SCOPRI</a>
-    </div>
+    <ul class="navigation">
+        <li>IN EVIDENZA</li>
+        <li>PODCAST</li>
+        <li>CLASSIFICHE</li>
+        <li>GENERI E MOOD</li>
+        <li>NUOVE USCITE</li>
+        <li>SCOPRI</li>
+    </ul>
         <!--/fine sezione barra navigazione sopra i titoli musicali-->
 
     <div class="music">
