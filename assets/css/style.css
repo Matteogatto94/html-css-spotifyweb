@@ -221,10 +221,15 @@ body {
     padding-top: 1rem;
 }
 
-.profile span {
-    color: white;
+.profile a {
+    color:white;
+    text-decoration: none;
 }
 
+.profile img:hover {
+    border-radius: 40%;
+    border: 1px solid white;
+}
 
 .sidebar_down span,
 .playlist_menu span {
