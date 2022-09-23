@@ -100,35 +100,67 @@ body {
     background-color: white;
 }
 
-a:hover {
-    background-color: white;
-    cursor: pointer;
-}
-
-
-
 /* #endregion common rules */
 
 /* #region responsive */
-@media screen and (min-width: 568px) {
-    .sidebar {
-        width: var(--nav-wide);
-    }
-}
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 2560px) {
     .album {
-        width: calc(100% / 4 - 1rem);
-        ;
+        width: calc(100% / 6 - 1rem);
+    }
+
+    .sidebar {
+        width: 250px;
     }
 }
 
-@media screen and (min-width: 1440px) {
+
+@media screen and (max-width: 1440px) {
     .album {
         width: calc(100% / 6 - 1rem);
         ;
     }
+
+    .sidebar {
+        width: 250px;
+    }
+
+   .audio {
+    width: 300px;
+    display: flex;
+   }
+
+   .controls {
+    width: 250px
+   }
 }
+
+@media screen and (max-width: 768px) {
+    .album {
+        width: calc(100% / 4 - 1rem);
+        ;
+    }
+
+    .controls_font {
+        width: 300px;
+    }
+
+    }
+
+@media screen and (max-width: 568px) {
+    .album {
+        width: calc(100% / 2 - 1rem);
+    }
+
+    .album img {
+        max-width: 100%;
+    }
+}
+
+
+
+
+
 
 /* #endregion responsive */
 
@@ -333,8 +365,8 @@ a:hover {
 
 .controls_font i {
     color: white;
-    font-size: 2rem;
-    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .controls_bar {
@@ -349,7 +381,7 @@ a:hover {
 
 .space_time {
     background-color: white;
-    padding: 0.10rem 30rem;
+    padding: 0.10rem 3rem;
     border-radius: 1rem;
 }
 
@@ -364,6 +396,8 @@ a:hover {
 
 .space_time_2 {
     background-color: white;
-    padding: 0.10rem 10rem;
+    padding: 0.10rem 1.5rem;
     border-radius: 1rem;
 }
+
+/* #endregion player */
