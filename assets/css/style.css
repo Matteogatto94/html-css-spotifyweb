@@ -78,7 +78,7 @@ body {
 
 .music {
     overflow-y: auto;
-    height: calc(100% - 250px);
+    height: calc(100% - 190px);
     padding: 1.5rem;
 }
 
@@ -251,7 +251,9 @@ body {
 /* #region upgrade */
 
 .upgrade {
-    padding-top: 2rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 .btn_upgrade {
@@ -274,15 +276,15 @@ body {
 
 .navigation {
     height: 100px;
-    text-align: center;
     padding: 1.5rem;
     display: flex;
-    justify-content:space-around;
+    justify-content: center;
 }
 
 .navigation li {
     list-style: none;
     color: #7D7F84;
+    padding: 0 2.5rem;
 }
 
 .navigation li:hover {
