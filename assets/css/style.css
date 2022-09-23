@@ -333,7 +333,8 @@ a:hover {
 
 .controls_font i {
     color: white;
-    margin-left: 8rem;
+    font-size: 2rem;
+    padding: 0.5rem 2rem;
 }
 
 .controls_bar {
@@ -348,6 +349,21 @@ a:hover {
 
 .space_time {
     background-color: white;
-    padding: 0.10rem 50rem;
+    padding: 0.10rem 30rem;
+    border-radius: 1rem;
+}
+
+.audio {
+    padding: 3rem;
+}
+
+.audio i {
+    color: white;
+    padding: 0 1rem;
+}
+
+.space_time_2 {
+    background-color: white;
+    padding: 0.10rem 10rem;
     border-radius: 1rem;
 }
