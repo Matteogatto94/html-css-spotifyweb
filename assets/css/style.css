@@ -323,3 +323,31 @@ a:hover {
     color: #A3A3A3;
     margin-left: 10px;
 }
+
+.controls_font {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    
+}
+
+.controls_font i {
+    color: white;
+    margin-left: 8rem;
+}
+
+.controls_bar {
+    display: flex;
+    justify-content: center;
+}
+
+.time {
+    color: white;
+    padding: 0 1rem;
+}
+
+.space_time {
+    background-color: white;
+    padding: 0.10rem 50rem;
+    border-radius: 1rem;
+}
