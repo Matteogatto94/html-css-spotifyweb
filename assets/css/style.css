@@ -110,7 +110,7 @@ body {
     }
 
     .sidebar {
-        width: 250px;
+        width: 240px;
     }
 }
 
@@ -141,9 +141,28 @@ body {
         ;
     }
 
-    .controls_font {
-        width: 300px;
+    .album_details {
+        width: 25%;
     }
+
+    .controls {
+        width: 50%;
+       }
+
+    .audio {
+        width: 100%;
+    }
+   .player {
+    width: 100%;
+   }
+   .navigation {
+    flex-wrap: wrap;
+   }
+
+   .controls_font i {
+    width: 60px;
+   }
+    
 
     }
 
@@ -169,7 +188,7 @@ body {
 .navigation_sidebar,
 .playlist_menu,
 .profile {
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .navigation_sidebar {
@@ -280,16 +299,14 @@ body {
 /* #region navigation */
 
 .navigation {
-    height: 100px;
     padding: 1.5rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .navigation li {
     list-style: none;
     color: #7D7F84;
-    padding: 0 2.5rem;
 }
 
 .navigation li:hover {
@@ -356,12 +373,12 @@ body {
 .time_green {
     background-color: white;
     height: 25px;
-    width: 500px;
+    width: 250px;
     border-radius: 3rem;
 }
 
 .controls {
-    justify-content: center;
+    padding: 0.5rem;
 }
 
 .space_time {
@@ -426,8 +443,7 @@ body {
 
 .audio {
     display: flex;
-    padding: 3rem;
-    justify-content: end;
+    padding: 2rem;
 }
 
 .audio i {
